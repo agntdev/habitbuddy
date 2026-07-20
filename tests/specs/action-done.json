@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mark as Done",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Record habit completion in notification or list view"
+            }
+          }
+        ],
+        "send": {
+          "callback": "action:done"
+        }
+      }
+    ]
+  }
+]
