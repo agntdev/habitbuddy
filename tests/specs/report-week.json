@@ -1,0 +1,20 @@
+[
+  {
+    "name": "View Weekly Summary",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Display weekly progress metrics"
+            }
+          }
+        ],
+        "send": {
+          "callback": "report:week"
+        }
+      }
+    ]
+  }
+]
